@@ -1,0 +1,40 @@
+node_modules/
+frontend/node_modules/
+backend/target/
+backend/uploads/
+uploads/
+frontend/dist/
+*.log
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Java and Maven build output
+**/target/
+
+# Frontend build output and dependencies
+**/node_modules/
+frontend/dist/
+
+# Runtime uploads and private user files
+uploads/
+backend/uploads/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and crash reports
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.iml
+.DS_Store
